@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-width: 100px;
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFE6DB;
+    display: flex;
+    flex-direction: column;
+}
+.nav-bar{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    box-shadow: 0rem 0.1rem 0.1rem rgb(0,0,0,0.3);
+}
+.box{
+    width: 400px;
+    height: 200px;
+    margin: 100px auto auto auto;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0rem 0.1rem 0.1rem rgb(0,0,0,0.1);
+
+}
+.heding{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.track_header{
+    font-weight: bold;
+}
+.discribe{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+.active_part{
+    width: 62%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+}
+input[type="text"]{
+    width: 160px;
+    height: 40px;
+    border-radius: 4px;
+    /* background-color: pink; */
+    padding: 4px;
+    border: 2px solid #FE793D;
+}
+.id{}
+.track{
+    width: 80px;
+    height: 40px;
+    background-color: #FE793D;
+    color: white;
+    border-radius: 4px;
+}

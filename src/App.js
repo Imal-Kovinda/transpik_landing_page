@@ -1,5 +1,6 @@
 import React from "react";
 import SamplePage from "./pages/SamplePage";
+import Tracking from "./pages/Tracking";
 
 class App extends React.Component {
   constructor(props) {
@@ -8,8 +9,8 @@ class App extends React.Component {
 
   render() {
     return (<div>
-      <h1>Welcome to Transpik</h1>
-      <SamplePage></SamplePage>
+      
+      <Tracking />
     </div>);
   }
 }
